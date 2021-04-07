@@ -9,6 +9,7 @@
 import Tools from "./Tools.vue";
 import Painting from "./Painting.vue";
 import Void from "./Void.vue";
+import { mapState } from "vuex";
 
 export default {
   name: "Warehouse",
@@ -17,10 +18,10 @@ export default {
     Painting,
     Void,
   },
-  data() {
-    return {
-      currentComponent: "Painting",
-    };
+  computed: {
+    ...mapState({
+      currentComponent: (state) => state.currentComponent,
+    }),
   },
 };
 </script>
