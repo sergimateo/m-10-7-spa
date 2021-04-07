@@ -7,7 +7,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     clients: clientList,
-    currentComponent: "Painting",
+    currentComponent: "Void",
   },
   mutations: {
     setCurrentComponent(state, value) {
