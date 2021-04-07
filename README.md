@@ -13,7 +13,4 @@ Entonces he incorporado un Vuex store para comunicacion entre componentes:
 
 - ClientContainer.vue recibe la lista de clientes de la store (para aprovechar vuex store y no perder la practica)
 
-Igual he ido de Barcelona a Roma haciendo escala en Los Angeles, pero espero que esté todo bien a la primera.
-
-P.D. No me he esmerado tanto en el diseño y el css como en otros ejercicios, no tengo las musas por aquí cerca, jeje
 ```
