@@ -39,18 +39,18 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "warehouse" */ "../views/Warehouse.vue"),
   },
-  {
-    path: "/warehouse/painting",
-    name: "Painting",
-    component: () =>
-      import(/* webpackChunkName: "painting" */ "../views/Painting.vue"),
-  },
-  {
-    path: "/warehouse/tools",
-    name: "Tools",
-    component: () =>
-      import(/* webpackChunkName: "tools" */ "../views/Tools.vue"),
-  },
+  // {
+  //   path: "/warehouse/painting",
+  //   name: "Painting",
+  //   component: () =>
+  //     import(/* webpackChunkName: "painting" */ "../views/Painting.vue"),
+  // },
+  // {
+  //   path: "/warehouse/tools",
+  //   name: "Tools",
+  //   component: () =>
+  //     import(/* webpackChunkName: "tools" */ "../views/Tools.vue"),
+  // },
   {
     path: "/shop",
     name: "Shop",

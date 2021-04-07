@@ -7,23 +7,6 @@
       <router-link to="/warehouse">Warehouse </router-link> |
       <a
         class="dropdown dropdown-toggle"
-        id="navbarWareHouseDropdown"
-        role="button"
-        data-toggle="dropdown"
-        aria-haspopup="true"
-        aria-expanded="false"
-        >Warehouse
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarWarehouseDropdown">
-        <router-link class="dropdown-item" to="/shop/groceries"
-          >Groceries</router-link
-        >
-        <router-link class="dropdown-item" to="/shop/frozenfood"
-          >Frozen food</router-link
-        >
-      </div>
-      <a
-        class="dropdown dropdown-toggle"
         id="navbarStoreDropdown"
         role="button"
         data-toggle="dropdown"
@@ -46,8 +29,19 @@
   </div>
 </template>
 <script>
+// import Suppliers from "./views/Suppliers.vue";
+// import Warehouse from "./views/Warehouse.vue";
 export default {
   name: "App",
+  // components: {
+  //   Suppliers,
+  //   Warehouse,
+  // },
+  // data() {
+  //   return {
+  //     currentComponent: "Suppliers",
+  //   };
+  // },
   //   methods:{
   //      goToPainting () {
   //       this.$router.push('warehouse/painting' })
