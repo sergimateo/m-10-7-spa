@@ -4,23 +4,39 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/clients">Clients</router-link> |
       <router-link to="/suppliers">Suppliers</router-link> |
-      <router-link to="/warehouse">Warehouse </router-link> |
-      <a
+      <!-- <router-link
         class="dropdown dropdown-toggle"
-        id="navbarStoreDropdown"
+        id="navbarWarehouseDropdown"
+        role="button"
+        to="/warehouse"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Warehouse
+
+        <div class="dropdown-menu" aria-labelledby="navbarWarehouseDropdown">
+          <a class="dropdown-item">Tools</a>
+          <a class="dropdown-item">Painting</a>
+        </div>
+      </router-link>
+      | -->
+      <div
+        class="dropdown dropdown-toggle"
+        id="navbarShopDropdown"
         role="button"
         data-toggle="dropdown"
         aria-haspopup="true"
         aria-expanded="false"
       >
         Shop
-      </a>
+      </div>
 
-      <div class="dropdown-menu" aria-labelledby="navbarStoreDropdown">
+      <div class="dropdown-menu" aria-labelledby="navbarShopDropdown">
         <router-link class="dropdown-item" to="/shop/groceries"
           >Groceries</router-link
         >
-        <router-link class="dropdown-item" to="/shop/frozenfood"
+        <router-link class="dropdown-item" to="/shop/frozen-food"
           >Frozen food</router-link
         >
       </div>
@@ -84,4 +100,7 @@ export default {
 .dropdown {
   font-weight: 700;
 }
+// .dropdown-item:focus {
+//   color: #42b983;
+// }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="client">
-    <h1>This is the Painting section page</h1>
+    <h3>This is the Painting section page</h3>
   </div>
 </template>
 
